@@ -1,3 +1,76 @@
 * {
     font-family: 'Quicksand', sans-serif;
+    background-color: rgb(249, 249, 243);
+    
 }
+
+#subtit {
+    color: rgb(69, 112, 5);
+    font-weight: bolder;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#nameinput {
+    text-align: center;
+    width: 50vh;
+    margin-bottom: 2vh;
+    
+}
+#datebutton {
+    text-align: center;
+    width: 50vh;
+    margin-bottom: 2vh;
+    
+}
+#amountbutton {
+    text-align: center;
+    width: 50vh;
+    margin-bottom: 2vh;
+    
+}
+
+#centerdiv {
+    text-align: center;
+}
+
+#submitbutton {
+
+    color: rgb(249, 249, 243);
+    background-color: rgb(69, 112, 5);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+  
+  }
+
+  .removebutton {
+    color: rgb(249, 249, 243);
+    background-color: rgb(69, 112, 5);
+  
+  }
+
+  #centerdiv2 {
+    text-align: center;
+   
+}
+
+#tableid {
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70vh;
+}
+
+th {
+    font-weight: bolder;
+}
+

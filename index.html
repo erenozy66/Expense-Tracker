@@ -12,23 +12,50 @@
 </head>
 <body>
     <h1>Expense Tracker</h1>
-    <p>Add A New Item:</p>
+    <p id="subtit">Add A New Item:</p>
+    <div id="centerdiv">
     <label for="text">Name:</label>
     <input type="text"  id="nameinput">
+    <br>
     <label for="date">Date:</label>
     <input type="date" value="mm/dd/yyyy" id="datebutton">
+    <br>
    <label for="amount">Amount:</label>
-   <input type="number" id="amountbutton">
+   <input type="number" id="amountbutton" min="0" max="100000">
+   <br>
    <input type="submit" name="submit" id="submitbutton" value="Add Expense">
-
+</div>
+<br>
+<div id="centerdiv2">
    <table id="tableid">
     <tr>
         <th>Name</th>
         <th>Date</th>
         <th>Amount</th>
-        <th><button>X</button></th>
+        <th></th>
+        
     </tr>
-   </table>
+    <tr >
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button class="removebutton">X</button></td>
+    </tr>
+    <tr >
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button class="removebutton">X</button></td>
+    </tr>
+    <tr >
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button class="removebutton">X</button></td>
+    </tr>
+  
    
+   </table>
+</div>
 </body>
 </html>
