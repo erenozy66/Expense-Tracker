@@ -228,7 +228,7 @@ function App() {
           >
             {expenses.map((exp, index) => (
               <li key={index}>
-                {exp.name}: ${exp.amount.toFixed(2)}
+                {exp.name}: €{exp.amount.toFixed(2)}
               </li>
             ))}
           </ul>
